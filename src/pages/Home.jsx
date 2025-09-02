@@ -1,4 +1,4 @@
-import { Navbar } from "../components/navbar";
+import { Navbar } from "../components/Navbar";
 import { HeroSection } from "../components/HeroSection";
 import { CategorySkill } from "../components/CategorySkill";
 import { AboutSection } from "../components/AboutSection";
