@@ -1407,24 +1407,26 @@
   --sidebar-ring: oklch(0.556 0 0);
 }
 
-@utility container {
-  margin-inline: auto;
-  padding-inline: 2rem;
+@layer utilities {
+  .container {
+    margin-inline: auto;
+    padding-inline: 2rem;
 
-  @media (width =< 640px) {
-    max-width: 640px;
-  }
-  @media (width >= 768px) {
-    max-width: 768px;
-  }
-  @media (width >= 1024px) {
-    max-width: 1024px;
-  }
-  @media (width >= 1280px) {
-    max-width: 1280px;
-  }
-  @media (width >= 1400px) {
-    max-width: 1400px;
+    @media (max-width: 640px) {
+      max-width: 640px;
+    }
+    @media (min-width: 768px) {
+      max-width: 768px;
+    }
+    @media (min-width: 1024px) {
+      max-width: 1024px;
+    }
+    @media (min-width: 1280px) {
+      max-width: 1280px;
+    }
+    @media (min-width: 1400px) {
+      max-width: 1400px;
+    }
   }
 }
 

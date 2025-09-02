@@ -2,7 +2,7 @@ import { Home } from "./pages/Home";
 
 function App() {
   return (
-    <div className="px-4 sm:px-6 lg:px-8">
+    <div className="container mx-auto">
       <Home />
     </div>
   );
